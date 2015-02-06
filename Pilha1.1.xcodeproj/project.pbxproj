@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DDC7D91C1A84ED62003821F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7D91B1A84ED62003821F0 /* main.m */; };
+		DDC7D9241A84F01A003821F0 /* Pilha.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7D9231A84F01A003821F0 /* Pilha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DDC7D9181A84ED62003821F0 /* Pilha1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pilha1.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC7D91B1A84ED62003821F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC7D9221A84F01A003821F0 /* Pilha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pilha.h; sourceTree = "<group>"; };
+		DDC7D9231A84F01A003821F0 /* Pilha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pilha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		DDC7D90F1A84ED62003821F0 = {
 			isa = PBXGroup;
 			children = (
+				DDC7D9221A84F01A003821F0 /* Pilha.h */,
+				DDC7D9231A84F01A003821F0 /* Pilha.m */,
 				DDC7D91A1A84ED62003821F0 /* Pilha1.1 */,
 				DDC7D9191A84ED62003821F0 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC7D9241A84F01A003821F0 /* Pilha.m in Sources */,
 				DDC7D91C1A84ED62003821F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
